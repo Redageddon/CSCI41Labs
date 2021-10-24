@@ -20,14 +20,15 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{896F7331-7AB7-4C64-A7D6-5E845C770C9D}</ProjectGuid>
+    <ProjectGuid>{CF73DE55-2E45-42FD-9038-C5B40CCDA1EB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Lab1082021</RootNamespace>
+    <RootNamespace>Lab9242021</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <RootNamespace>Lab5</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -154,7 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab1082021.cpp" />
+    <ClCompile Include="Lab5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
